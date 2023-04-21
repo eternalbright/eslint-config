@@ -1,0 +1,31 @@
+{
+  "name": "@eternalbright/eslint-config",
+  "version": "1.0.0",
+  "description": "A sample ESLint config",
+  "main": ".eslintrc.js",
+  "author": "Oleksandr Mykhailovskyi <eternalbright@pm.me>",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-sort-keys": "^2.3.5"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eternalbright/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eternalbright/eslint-config/issues"
+  },
+  "homepage": "https://github.com/eternalbright/eslint-config#readme"
+}

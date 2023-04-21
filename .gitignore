@@ -1,0 +1,9 @@
+.*
+
+!.eslintrc.js
+!.gitignore
+!.nvmrc
+
+!.husky/
+
+node_modules/
